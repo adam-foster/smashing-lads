@@ -1,4 +1,4 @@
-smashing-lads
-=============
+Smashing Lads!
+==========================
 
-The Smashing Lads website
+
