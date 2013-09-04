@@ -1,0 +1,206 @@
+/*! normalize.css v1.1.1 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{background:#fff;color:#000;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.67em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #404040;
+    font-family: 'universcondensedboldCnBd', 'Arial', sans-serif;
+}
+
+html, body {
+    background-color: #f4f4f4;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.no-touch a { 
+    opacity: 1;
+    -webkit-transition: opacity .1s ease-in;
+    -moz-transition: opacity .1s ease-in;
+    -ms-transition: opacity .1s ease-in;
+    -o-transition: opacity .1s ease-in;
+    transition: opacity .1s ease-in;
+}
+.no-touch a:hover { opacity: 0.6; }
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+img {
+    vertical-align: middle; display: inline-block;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* SMASHING LADS ! */
+
+#smashing-lads { max-width: 1100px; width: 100%; margin: 0 auto; padding: 80px 20px 60px; }
+
+h1 { text-transform: uppercase; font-size: 155px; margin: 0 0 40px; letter-spacing: -10px; line-height: .9; text-align: center; }
+    h1 span { letter-spacing: -2px; }
+h2, h3 { text-transform: uppercase; font-size: 45px; margin: 0 0 24px; letter-spacing: -3px; }
+h4 { text-transform: uppercase; font-size: 19px; margin: 0 0 2px; line-height: 1; }
+
+.intro { text-align: center; font-size: 32px; max-width: 950px; margin: 0 auto; }
+.the-lads { list-style: none; margin: 0 0 75px; padding: 70px 0; font-size: 0; border-bottom: 1px solid #404040; }
+    .the-lads li { display: inline-block; width: 25%; text-align: center; font-size: 17px; line-height: 1; }
+        .the-lads li strong { display: block; padding: 14px 0 0; font-size: 19px; font-weight: bold; }
+
+#wrapper { margin-bottom: 70px; }
+    #wrapper > aside { float: left; width: 50%; padding-right: 20px; }
+        #wrapper > aside article { margin-bottom: 25px; }
+    #wrapper > main { float: right; width: 50%; padding-left: 25px; }
+        #wrapper > main article { border-bottom: 1px solid #404040; margin-bottom: 40px; padding-bottom: 25px; }
+        #wrapper > main article:first-child { border-top: 0; }
+            #wrapper > main article p { margin: 0 0 15px; }
+                 #wrapper > main article a { color: #878787; text-decoration: underline; }
+
+.more { padding-bottom: 30px; }
+    #load-more { float: left; max-width: 50%; color: #404040; text-decoration: none; text-transform: uppercase; }
+    #load-count { float: right; text-align: right; max-width: 50%; }
+
+#contact-share { border: solid #404040; border-width: 1px 0; padding: 28px 0 30px; }
+    #contact-share > a { display: block; float: left; max-width: 50%; font-size: 22px; text-transform: uppercase; color: #404040; text-decoration: none; line-height: 1; padding-top: 4px; }
+        #contact-share > a span { background-position: 0 0; height: 16px; width: 24px; float: left; margin-right: 5px; }
+    .share { float: right; max-width: 50%; }
+        .share * { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+#social ul { list-style: none; text-align: center; display: block; margin: 30px auto 0; padding: 0; }
+    #social ul li { text-align: center; display: inline-block; margin: 0 12px; }
+        #social li a { height: 64px; width: 64px; } 
+            #social li a.fb { background-position: -64px 0; }
+            #social li a.sc { background-position: -158px 0; }
+            #social li a.tw { background-position: -252px 0; }  
+#social > p { font-size: 12px; text-transform: uppercase; margin: 30px 0 0 0; text-align: center; }
+
+.sp { background: url(img/lazy-sprite.png) no-repeat; background-size: 316px 64px; display: block; text-indent: -999px; overflow: hidden; }
+
+@font-face {
+    font-family: 'universcondensedboldCnBd';
+    src: url('fonts/univcbcb-webfont.eot');
+    src: url('fonts/univcbcb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/univcbcb-webfont.woff') format('woff'),
+         url('fonts/univcbcb-webfont.ttf') format('truetype'),
+         url('fonts/univcbcb-webfont.svg#universcondensedboldCnBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ! SMASHING LADS */
+
+@media only screen and (max-width: 767px) {
+
+    #smashing-lads { min-width: 320px; padding: 30px 15px 30px; }
+
+    h1 { font-size: 60px; letter-spacing: 0; margin-bottom: 20px; }
+
+    .intro { font-size: 20px; }
+
+    .the-lads { padding: 30px 0 30px; margin-bottom: 40px; }
+        .the-lads li { width: 50%; padding-bottom: 15px; }
+            .the-lads li img { max-width: 90%; height: auto; }
+
+    #wrapper { margin-bottom: 10px; }
+
+        #wrapper > aside,
+        #wrapper > main {
+            float: none;
+            padding: 0;
+            width: 100%;
+        }
+
+        #wrapper > aside {
+            border-bottom: 1px solid #404040; margin-bottom: 40px; padding-bottom: 20px;
+        }
+
+        #wrapper > main article { border-bottom-color: #d1d1d1; }
+
+    #contact-share > a { max-width: none; float: none; text-align: center; margin-bottom: 24px; }
+        #contact-share > a span { float: none; display: inline-block; }
+    .share { max-width: none; float: none; text-align: center; }
+
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
