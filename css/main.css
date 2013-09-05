@@ -142,10 +142,18 @@ h4 { text-transform: uppercase; font-size: 19px; margin: 0 0 2px; line-height: 1
 
         #wrapper > main article { border-bottom-color: #d1d1d1; }
 
+    #contact-share { padding-bottom: 10px; }
     #contact-share > a { max-width: none; float: none; text-align: center; margin-bottom: 24px; }
         #contact-share > a span { float: none; display: inline-block; }
     .share { max-width: none; float: none; text-align: center; }
+        .share span { margin-bottom: 20px; }
 
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 50px;
+    }
 }
 
 @media print {
