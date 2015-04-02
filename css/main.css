@@ -73,11 +73,13 @@ h4 { font-weight: 200; text-transform: uppercase; font-size: 19px; margin: 0 0 2
 
 #social { margin: 18px 0 35px; }
     #social ul { list-style: none; text-align: center; display: block; margin: 0 auto; padding: 0; }
-        #social ul li { text-align: center; display: inline-block; margin: 0 24px; }
+        #social ul li { text-align: center; display: inline-block; margin: 0 12px; }
             #social li a { height: 64px; width: 64px; } 
                 #social li a.fb { background-position: -64px 0; }
                 #social li a.sc { background-position: -158px 0; }
-                #social li a.tw { background-position: -252px 0; }  
+                #social li a.tw { background-position: -252px 0; }
+                #social li a.in { background-position: -351px 0; } 
+                #social li a.yt { background-position: -450px 0; }  
 
 #promo { text-align: center; padding-bottom: 46px }
     #promo iframe, #promo img { display: block; margin: 0 auto; max-width: 100%; }
@@ -87,6 +89,7 @@ h4 { font-weight: 200; text-transform: uppercase; font-size: 19px; margin: 0 0 2
 #live { border-top: 1px solid #3e3e3e; border-bottom: 1px solid #3e3e3e; text-align: center; padding: 74px 20px; }
     #live ul { list-style: none; margin: 0; padding: 0; }
             #live ul a { color: #fff; display: inline-block; padding: 12px 0; }
+            #live ul span { display: inline-block; padding: 16px 0 12px; }
 
 #wrapper { padding: 75px 0; border-bottom: 1px solid #3e3e3e; }
     #wrapper > aside { float: left; width: 50%; padding-right: 20px; }
@@ -105,7 +108,7 @@ h4 { font-weight: 200; text-transform: uppercase; font-size: 19px; margin: 0 0 2
 
 footer > p { font-size: 14px; text-transform: uppercase; margin: 22px 0 0 0; text-align: right; }
 
-.sp { background: url(img/lazy-sprite.png) no-repeat; background-size: 316px 64px; display: block; text-indent: -999px; overflow: hidden; }
+.sp { background: url(img/lazy-sprite.png) no-repeat; background-size: 634px 64px; display: block; text-indent: -999px; overflow: hidden; }
 
 @font-face {
     font-family: 'universcondensedboldCnBd';
@@ -147,7 +150,7 @@ footer > p { font-size: 14px; text-transform: uppercase; margin: 22px 0 0 0; tex
     #live { padding: 44px 20px; }
 
     #social {}
-        #social ul li { text-align: center; display: inline-block; margin: 0 10px; }
+        #social ul li { text-align: center; display: inline-block; margin: 0 5px; }
 
     #the-lads { padding: 44px 0; }
 
@@ -170,11 +173,13 @@ footer > p { font-size: 14px; text-transform: uppercase; margin: 22px 0 0 0; tex
 
     footer > p { text-align: center; }
 
-    .sp { background-size: 211px 43px; }
+    .sp { background-size: 426px 43px; }
     #social li a { height: 43px; width: 43px; } 
         #social li a.fb { background-position: -43px 0; }
-        #social li a.sc { background-position: -105px 0; }
-        #social li a.tw { background-position: -168px 0; }  
+        #social li a.sc { background-position: -106px 0; }
+        #social li a.tw { background-position: -169px 0; } 
+        #social li a.in { background-position: -236px 0; } 
+        #social li a.yt { background-position: -303px 0; }  
 
 }
 
